@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,500;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Signika:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-bar {
+    width: 1350PX !important;
+    margin: 0 auto;
+}
+
+.container {
+    line-height: 10px;
+    width: 1450px !important;
+
+}
+
+.name-bg {
+    background-image: url(/assets/bg\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 36px 0;
+    width: 100%;
+    overflow: hidden;
+    animation: change 5s infinite ease-in-out;
+    position: relative;
+    height: 570px;
+}
+
+
+
+@keyframes change {
+    100% {
+        background-image: url(/assets/bg\ 2.jpg);
+    }
+
+
+}
+
+.words-1 {
+    color: #fff;
+    justify-content: right;
+    display: flex;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.words-2 {
+    color: #fff;
+    justify-content: right;
+    display: flex;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.words-3 {
+    color: #fff;
+    justify-content: right;
+    display: flex;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.words-4 {
+    color: #fff;
+    justify-content: right;
+    display: flex;
+    font-weight: 700px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flextaion {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+
+}
+
+
+.heading {
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #fff;
+    text-shadow: 0px 5px 5px #000000e6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.key {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    margin: 0;
+    display: flex;
+    gap: 22px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+
+
+.just-content {
+    display: flex;
+    gap: 39px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-size: 35px;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 5px 5px #000000e6;
+    position: absolute;
+    left: 300px;
+    top: 20%;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.box-1 {
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    word-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 160px;
+    top: 30%;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 320px;
+    bottom: 50px;
+
+}
+
+.btn-1 {
+    border-radius: 20px;
+    background-color: #01b4ff;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+
+}
+
+.screen-pic {
+    position: absolute;
+    left: 200px;
+    bottom: 170px;
+}
+
+
+/* ******************************************** */
+.bg {
+    background-image: url(/assets/4th\ image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+    position: relative;
+}
+
+
+.btn-3 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 43%;
+
+}
+
+.btn-4 {
+    border-radius: 20px;
+    background-color: #01b4ff;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+
+
+}
+
+/* *************************************************** */
+.bg-1 {
+    background-image: url(/assets/3rd\ image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    position: relative;
+
+}
+
+.contant h4 {
+    font-size: 25px;
+    color: #fff;
+}
+
+.contant p {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 35px;
+
+
+
+}
+
+.btn-6 {
+    border-radius: 20px;
+    background-color: #0a496a;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: none;
+}
+
+.contant {
+    position: absolute;
+    left: 150px;
+    top: 20%;
+}
+
+/* ************************** */
+.bg-color {
+    background-color: #0a496a;
+    height: 70vh;
+    position: relative;
+
+}
+
+.next-2 {
+
+    position: absolute;
+    right: 150px;
+    bottom: 270px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.next-1 {
+    position: absolute;
+    right: 290px;
+    top: 15%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.button {
+    position: absolute;
+    right: 290px;
+    bottom: 220px;
+
+
+}
+
+.next-img {
+    position: absolute;
+    left: 100px;
+    top: 10%;
+}
+
+
+
+/* **************************** */
+.bg-2 {
+    background-color: #0a496a;
+    height: 60vh;
+    position: relative;
+
+
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.logo h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.detail h3 {
+    display: flex;
+    justify-content: left;
+    color: #fff;
+
+}
+
+.detail {
+    position: absolute;
+    right: 70px;
+    top: 40%;
+}
+
+.car-img {
+    position: absolute;
+    right: 130px;
+    bottom: 20px;
+}
+
+.app-btn {
+    margin-left: 40px;
+}
+
+.icon {
+    color: #fff;
+    font-size: larger;
+    line-height: 40px;
+
+}
+
+/*  */
+@media only screen and (max-width: 480px) {
+    .bg-2 {
+        height: auto;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .detail {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+    .detail h3{
+      display: flex;
+      justify-content: center;
+    }
+
+    .car-img {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .app-btn {
+        margin-left: 0;
+        text-align: center;
+    }
+
+
+    p {
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon {
+        margin: 10px 0;
+        align-items: center;
+    }
+    .bg-color {
+        height: auto;
+    }
+
+    .next-img {
+        position: static;
+        width: 100%; 
+        max-width: 100%;
+        height: auto;
+        left: 0;
+        top: 0;
+    }
+
+    .next {
+        position: static;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .next-1,
+    .next-2,
+    .button {
+        position: static;
+        margin: 20px 0;
+        text-align: center;
+        right: auto;
+        bottom: auto;
+        top: auto;
+    }
+
+    .next-1 {
+        right: auto;
+        top: auto;
+    }
+
+    .next-2 {
+        right: auto;
+        bottom: auto;
+    }
+
+    .button {
+        right: auto;
+        bottom: auto;
+    }
+    .bg-1 {
+        height: auto;
+    }
+
+    .contant {
+        position: static;
+        text-align: center;
+        margin: 20px;
+        left: auto;
+        top: auto;
+    }
+
+    .contant h4 {
+        font-size: 20px;
+        color: black;
+    }
+
+    .contant p {
+        font-size: 16px;
+        margin: 10px;
+        color: black;
+    }
+
+    .btn-5 {
+        text-align: center;
+    }
+
+    .btn-6 {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    .bg{
+        width: 100%;
+       
+        
+    }
+    .btn-3{
+       right:200px;
+       bottom: auto;
+      
+    }
+    
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+    .bg-2 {
+        height: auto;
+    }
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .detail {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .detail h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .car-img {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .app-btn {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    
+    p{
+        align-items: center;
+        text-align: center;
+    }
+    .icon {
+        margin: 10px 0;
+    }
+
+/* ************************************************* */
+    .bg-color {
+        height: auto;
+    }
+
+    .next-img {
+        position: static;
+        width: 100%; 
+        max-width: 100%;
+        height: auto; 
+        left: 0;
+        top: 0;
+    }
+
+    .next {
+        position: static;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .next-1,
+    .next-2,
+    .button {
+        position: static;
+        margin: 20px 0;
+        text-align: center;
+        right: auto;
+        bottom: auto;
+        top: auto;
+    }
+    /* ***************************** */
+    .bg-1 {
+        height: auto;
+    }
+
+    .contant {
+        position: static;
+        text-align: center;
+        margin: 20px;
+        left: auto;
+        top: auto;
+    }
+
+    .contant h4 {
+        font-size: 20px;
+        color: rgb(12, 6, 1);
+        font-weight: 800px;
+       
+    }
+
+    .contant p {
+        font-size: 55px;
+        margin: 10px;
+        color: rgb(27, 4, 38);
+        font-weight: 800;
+        
+    }
+
+    .contant {
+        position: static;
+        text-align: center;
+        margin: 20px;
+        left: auto;
+        top: auto;
+    }
+
+    .contant h4 {
+        font-size: 20px;
+    }
+
+    .contant p {
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .btn-5 {
+        text-align: center;
+    }
+
+    .btn-6 {
+        font-size: 16px;
+    }
+
+
+    .btn-5 {
+        text-align: center;
+    }
+
+    .btn-6 {
+        font-size: 16px;
+    }
+    /*  */
+    .bg{
+        width: 100%;
+    }
+    .btn-3{
+        right:300px;
+        bottom: auto;
+    }
+    
+}
+
+
+@media only screen and (max-width: 450px) {
+    .name-bg {
+        height: auto;
+    }
+
+    .container-bar {
+        width: 100%;
+    }
+
+    .container {
+        /* width: 100%; */
+        max-width: 100%;
+        line-height: 1.2;
+        visibility: hidden;
+        
+
+    }
+
+    .heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .key {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .words-1,
+    .words-2,
+    .words-3,
+    .words-4 {
+        font-size: 22px;
+    }
+
+    .box {
+        font-size: 24px;
+        left: 20px;
+        top: 13%;
+    }
+
+    .box-1 {
+        font-size: 18px;
+        left: 20px;
+        top: 20%;
+    }
+
+    .btn {
+        left: 20px;
+        bottom: 30px;
+    }
+
+    .btn-1 {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .screen-pic {
+        left: 20px;
+        bottom: 80px;
+        width: 50px;
+    }
+}
+
